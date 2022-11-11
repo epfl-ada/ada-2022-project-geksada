@@ -9,7 +9,7 @@
     - [3.1 Proposed additional datasets (if any)](#31-proposed-additional-datasets-if-any)
     - [3.2 Methods](#32-methods)
   - [4 Organization](#4-organization)
-    - [4.1 Proposed](#41-proposed)
+    - [4.1 Proposed Timeline](#41-proposed-timeline)
     - [4.2 Team organization](#42-team-organization)
   - [Questions for TAs (optional)](#questions-for-tas-optional)
 
@@ -26,7 +26,7 @@
 
 ## 4 Organization
 
-### 4.1 Proposed 
+### 4.1 Proposed timeline
 
 ### 4.2 Team organization
 
