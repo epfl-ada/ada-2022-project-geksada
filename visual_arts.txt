@@ -2,6 +2,7 @@ ceramic
 ceramics
 draw
 draw in
+drawing
 drawings
 paint
 painter
@@ -38,6 +39,7 @@ earthenwares
 terracotta
 vase
 vases
+clayware
 mosaic
 mosaics
 carve
