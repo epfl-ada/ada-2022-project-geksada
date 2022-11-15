@@ -21,6 +21,8 @@ We are often put into boxes regarding our interests and hobbies, we have friends
 - How do we define art in YouTube videos, since there is no "Art" category?
 - Are commenters interested only in one area or they are engaged in both artistic and scientific videos?
 - If commenters are interested in both, are they commenting at around the same time or in different phases (months, years)?
+- What percentage of the youtube videos corresponds to scientific and artistic videos ?
+
 ## 3 Tools
 External libraries:
 
