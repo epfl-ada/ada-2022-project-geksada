@@ -33,16 +33,35 @@ We are often put into boxes regarding our interests and hobbies, we have friends
 External libraries:
 
 ### 3.1 Proposed additional datasets (if any)
-At the moment, the work is based solely on YouNiverse dataset
 
 ### 3.2 Methods
-To classify “artistic” videos we are using seven arts subdivision (cinema, paintings, architecture, sculptures, literature, theatre, and music) and mapping keywords for each area to artistic category. We are excluding music area as some people listen to it on YouTube without any visualizations and in general high number of population listens to music no matter their interests. 
-1.	Define what is considered as artistic videos
-2.	Select artistic videos by keywords matching
-3.	Group comment file by author, select authors that have at least a certain number X (defined later) of comments
-4.	Make the link between commented video and to which category (artistic/scientific) it belongs
-5.	Check distribution of commenters on one and both categories types
-6.	For commenter on two categories, check if they mix both types of videos in the same time period or in different time phases.
+
+#### Contraints  
+1.  Keep only 100 000 comenters and the videos they commented 
+2.	Our artistic videos are split in three groups: visual art, literary art, performing art
+3.  Our scientific videos are split in two groups: technical sciences, theoretical sciences
+
+#### Milestone 2
+1.  Prepare a dataset with 100 000 comenters and the videos they commented
+2.  Select only relevant features
+3.  Define a dictionary to select visual art, literary art and performing art videos
+4.  Define a dictionary to select technical sciences and theoretical sciences videos
+5.  Use keyword matching between these dictionaries and the videos to classify them
+6.  EDA of the artistic and scientific videos 
+7.  EDA of the comenters dataset
+
+#### Next tasks
+1.  Select all the comenters that commented on scientific or artistic videos
+2.  Categorise users as scientific, artistic, none of them or both of them
+3.  Compute the percentage of comenters who commented on scientific videos within the 100 000 different comenters (same for artitic and sub-categories videos)
+4.  Compute the percentage of artistic comenters who commented on scientific videos (vice-versa and sub-categories)
+5.  Analyze the percentage differences in the groups to know if there is a statistical significance
+6.  Plot the distribution of the numbers of scientific commented by the 100 000 commenters (same for artitic and sub-categories videos)
+7.  Plot the distribution of the numbers of scientific commented by the artistic commenters (vice-versa and sub-categories)
+8.  Compare the different distributions by superposing them and use a wilcoxon test
+9.  Determine confidence intervals using bootstraping
+10.  Analyze the percentage of scientific comenters which comment on artistic videos over time (vice-versa and sub-categories)
+11.  Use all our previous analysisis to draw a conclusion about our research question
 
 ## 4 Organization
 ### 4.1 Proposed timeline
@@ -53,9 +72,10 @@ In the following weeks we are planning to analyze more users commenting on both 
 * 12 December – 23 December work on user story and finalize the project
 ### 4.2 Team organization
 
-Kelyan:
+Kelyan: 
 
-Gaston:
+
+Gaston: 
 
 Sushen:
 
