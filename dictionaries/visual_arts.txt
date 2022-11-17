@@ -61,3 +61,5 @@ artworks
 photojournalism
 aperture
 exposure
+museum
+museums
