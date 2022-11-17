@@ -59,8 +59,9 @@ External libraries:
 6.  Plot the distribution of the numbers of scientific commented by the 100 000 commenters (same for artitic and sub-categories videos)
 7.  Plot the distribution of the numbers of scientific commented by the artistic commenters (vice-versa and sub-categories)
 8.  Compare the different distributions by superposing them and use a wilcoxon test
-7.  Analyze the percentage of scientific comenters which comment on artistic videos over time (vice-versa and sub-categories)
-8.  Use all our previous analysisis to draw a conclusion about our research question
+9.  Determine confidence intervals using bootstraping
+10.  Analyze the percentage of scientific comenters which comment on artistic videos over time (vice-versa and sub-categories)
+11.  Use all our previous analysisis to draw a conclusion about our research question
 
 ## 4 Organization
 ### 4.1 Proposed timeline
