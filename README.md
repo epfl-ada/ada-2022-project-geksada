@@ -1,7 +1,7 @@
-# Title : Busting the left brain vs. right brain myth ?
+# Busting the left brain vs. right brain myth ?
 
 ## Table of contents:
-- [Title : Busting the left brain vs. right brain myth ?](#title--busting-the-left-brain-vs-right-brain-myth-)
+- [Busting the left brain vs. right brain myth ?](#busting-the-left-brain-vs-right-brain-myth-)
   - [Table of contents:](#table-of-contents)
   - [1. Abstract](#1-abstract)
   - [2. Research Questions](#2-research-questions)
