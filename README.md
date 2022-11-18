@@ -1,76 +1,94 @@
-# Title :
+# Title : Busting the left brain vs. right brain myth ?
 
 ## Table of contents:
-- [Title :](#title-)
+- [Title : Busting the left brain vs. right brain myth ?](#title--busting-the-left-brain-vs-right-brain-myth-)
   - [Table of contents:](#table-of-contents)
   - [1. Abstract](#1-abstract)
   - [2. Research Questions](#2-research-questions)
   - [3 Tools](#3-tools)
     - [3.1 Proposed additional datasets (if any)](#31-proposed-additional-datasets-if-any)
     - [3.2 Methods](#32-methods)
+      - [Contraints](#contraints)
+      - [Milestone 2](#milestone-2)
+      - [Next tasks](#next-tasks)
   - [4 Organization](#4-organization)
-    - [4.1 Proposed Timeline](#41-proposed-timeline)
+    - [4.1 Proposed timeline](#41-proposed-timeline)
     - [4.2 Team organization](#42-team-organization)
   - [Questions for TAs (optional)](#questions-for-tas-optional)
 
 
 ## 1. Abstract
-We are often put into boxes regarding our interests and hobbies, we have friends that have the same interests as us, we chose a department when we are young at high school and social media makes a lot of suggestions based on our past interests. We sometimes hear that artistic and scientific people are different, closed-minded in their subject and not interested in the other one. The goal of this project is to study this stereotype by studying the YouNiverse dataset using comments and video metadata files. We want to determine whether comment authors that usually comment on artistic videos also comment on scientific videos (and vice-versa). Our goal is also to split artistic and scientific people into sub-art or sub-science categories to analyze if this effect is influenced by the type of science/art in which the comenter is interested. To draw some conclusions about people’s interests, we can determine if the profiles that consider both types of videos mix them together over one time period or if they are more evenly distributed over several.
+We are often put into boxes regarding our interests and hobbies, we have friends that have the same interests as us, we chose a department when we are young at high school and social media makes a lot of suggestions based on our past interests. We sometimes hear that artistic and scientific people are different, closed-minded in their subject and not interested in the other one. As an example there exists a popular myth according to which "left brained" people are more logical whereas "right brained" people are more creative.
+
+<img src="images/leftbrain-rightbrain.jpg" alt="drawing" width="400"/>
+
+The goal of this project is to study this stereotype by studying the YouNiverse dataset at our disposition using comments and video metadata files. We want to determine whether users who usually comment on artistic videos also comment on scientific videos (and vice-versa). Our goal is also to split artistic and scientific videos into smaller domains to analyze, if this effect is influenced by the particular domain of science/art in which the user is interested in. To draw some conclusions about people’s interests, we can determine the user profiles and the watching/commenting behaviors w.r.t. videos that do not usually match their profiles.
+
 
 ## 2. Research Questions
 - What type of art (visual, literary, performing) and sciences (technical, theoretical) are the most popular ?
 - How does this popularity evolve in time ?
 - Are commenters interested only in one area or they are engaged in both artistic and scientific videos ?
 - If commenters are interested in both, are they commenting at around the same time or in different phases (months, years) ?
-- Is there a difference of cross interest between science and art when we study sub-categories of these fields ? 
+- Is there a difference of cross interest between science and art when we study domains of these fields ?
+- What is the difference in terms of artistic sensibility between people interested in technical-related science vs people interested in natural sciences ?
 
 ## 3 Tools
-External libraries: Pandas, Numpy, Matplotlib, Seaborn, Scipy, Wordcloud
+External libraries:
+```
+pandas, numpy, matplotlib, seaborn, scipy, wordcloud, matplotlib_venn
+```
 
 ### 3.1 Proposed additional datasets (if any)
+
+None.
 
 ### 3.2 Methods
 
 #### Contraints  
-1.  Keep only 600 000 users and the videos they commented
-2.	Our artistic videos are split in three groups: visual art, literary art, performing art
-3.  Our scientific videos are split in two groups: technical sciences, natural sciences
+1.  Keep only around 600 000 users and the videos on which they commented.
+2.	Our artistic videos are split in three domains: visual art, literary art, performing art.
+3.  Our scientific videos are split in two domains: technical sciences, natural sciences.
 
 #### Milestone 2
-1.  Prepare a dataset with 600 000 users and the videos they commented
-2.  Select only relevant features
-3.  EDA of the videos
-4.  EDA of the comments
-5.  Define a dictionary to select visual art, literary art and performing art videos
-6.  Define a dictionary to select technical sciences and theoretical sciences videos
-7.  Use keyword matching between these dictionaries and the videos to classify them
-8.  EDA of the artistic and scientific videos 
+1.  Prepare a dataset with 600 000 users and the videos on which they commented.
+2.  Select only relevant features.
+3.  EDA of the videos.
+4.  EDA of the comments.
+5.  Define a dictionary to select visual art, literary art and performing art videos.
+6.  Define a dictionary to select technical sciences and theoretical sciences videos.
+7.  Use keyword matching between these dictionaries and the videos to classify them.
+8.  EDA of the artistic and scientific videos.
+
+EDA: Exploratory Data Analysis
 
 #### Next tasks
-1.  Select all the comenters that commented on scientific or artistic videos
-2.  Categorise users as scientific, artistic, none of them or both of them
-3.  Compute the percentage of comenters who commented on scientific videos within the 100 000 different comenters (same for artitic and sub-categories videos)
-4.  Compute the percentage of artistic comenters who commented on scientific videos (vice-versa and sub-categories)
-5.  Analyze the percentage differences in the groups to know if there is a statistical significance
-6.  Plot the distribution of the numbers of scientific commented by the 100 000 commenters (same for artitic and sub-categories videos)
-7.  Plot the distribution of the numbers of scientific commented by the artistic commenters (vice-versa and sub-categories)
-8.  Compare the different distributions by superposing them and use a wilcoxon test
-9.  Determine confidence intervals using bootstraping
-10. Analyze the percentage of scientific comenters which comment on artistic videos over time (vice-versa and sub-categories)
-11. Use all our previous analysisis to draw a conclusion about our research question
+1.  Categorize users into user profiles we will define based on their commenting behaviors.
+2.  Analyse the commenting behavior of "scientist" users vs "artistic" users
+  1.  Using Wilcoxon signed-rank test (non-parametric because we cannot assume normality), we will compare a sample distribution of random users commenting on a certain type of video (e.g. natural science) vs a sample distribution of a specific user profile (e.g. visual art amateur user)
+  2.  We will do this for every domain we have as well as for every user profile.
+  3.  We might expand this for other the youtube categories / profiles.
+3. Based on the resulting matrix we will get from the previous point, we will analyse the most interesting combinations of user profiles and domains and try to understand why there might be differences.
+4.  Use all our previous analysis results to draw a conclusions about our research questions.
+5.  After the analysis, we will reflect upon our assumptions (consciously or unconsciously made) as well as limitations that we might have come across. Additionnaly, we will discuss about things we might have overlooked and finish on an open question based on what we learned. 
 
 ## 4 Organization
 ### 4.1 Proposed timeline
-In the following weeks we are planning to categorise users with respects to their comments and compute the analysis defined previously.
-* 21 November – 27 November: Categorise users and compute statistics percentages
-* 28 November – 4 December: Implement milestone 2 feedback, compare the distributions 
+
+In the following weeks we are planning to categorize users with respects to their comments and compute the analysis defined previously.
+
+* 21 November – 27 November: Categorize users and compute wilcoxon tests matrix
+* 28 November – 4 December: Implement milestone 2 feedback, analyse combinations of users and domains 
 * 5 December – 11 December: Draw conclusions and prepare visualizations
 * 12 December – 23 December: Work on user story and finalize the project
+
+![gantt](images/gantt_chart.png)
+  
 ### 4.2 Team organization
 
-Kelyan: Comment EDA, Scientific EDA, Artistic EDA
+Kelyan: Comments EDA, Scientific EDA, Artistic EDA
 
-Gaston: Data Importation, Video EDA
+Gaston: Data Sampling and Preprocessing, Videos EDA
 
 Sushen: Video EDA, Scientific EDA, Artistic EDA
 
