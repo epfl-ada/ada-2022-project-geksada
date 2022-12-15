@@ -1,7 +1,7 @@
 ceramic
 ceramics
 draw
-draw in
+draw-in
 drawing
 drawings
 paint
@@ -18,7 +18,7 @@ statuary
 fresco
 printmaking
 linoleum
-linocut 
+linocut
 design
 designs
 designer
@@ -53,9 +53,11 @@ doodles
 doodling
 dooodlings
 acrylic
-acrylic paint
-oil paint
-spray paint
+acrylic-paint
+oil-paint
+spray-paint
+paint
+paints
 artwork
 artworks
 photojournalism
@@ -63,3 +65,47 @@ aperture
 exposure
 museum
 museums
+animation
+animations
+illustration
+illustrations
+portraiture
+landscape
+still-life
+figurative
+realism
+surrealism
+expressionism
+impressionism
+abstract-expressionism
+cubism
+fauvism
+futurism
+dada
+constructivism
+minimalism
+conceptual-art
+pop-art
+op-art
+kinetic-art
+outsider-art
+naive-art
+graffiti
+graffitis
+street-art
+body-art
+environmental-art
+fiber-art
+glass-art
+metalwork
+woodwork
+stone-carving
+paper-art
+quilling
+calligraphy
+engraving
+etching
+lithography
+book-arts
+papermaking
+typography
