@@ -70,7 +70,7 @@ EDA: Exploratory Data Analysis
 
 ## 4 Organization
 ### 4.1 Timeline
-* 21 November – 27 November: Categorize users and compute Wilcoxon tests matrix
+* 21 November – 27 November: Categorize users and compute statistical tests and linear regression
 * 28 November – 4 December: Implement milestone 2 feedback, analyze combinations of users and domains 
 * 5 December – 11 December: Draw conclusions and prepare visualizations
 * 12 December – 23 December: Work on the data story and finalize the project
