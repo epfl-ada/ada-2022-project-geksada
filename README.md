@@ -10,7 +10,7 @@ Web story: https://katesedykh.github.io/ada-project-website/
     - [3.2 Methods](#32-methods)
       - [Constraints](#constraints)
       - [Milestone 2](#milestone-2)
-      - [Next tasks](#next-tasks)
+      - [Milestone 3](#milestone-3)
   - [4 Organization](#4-organization)
     - [4.1 Timeline](#41-timeline)
     - [4.2 Team organization](#42-team-organization)
