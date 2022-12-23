@@ -1,7 +1,7 @@
 # Defying the Brain's Divisions: How Artistic and Scientific Interests Overlap on YouTube
 Web story: https://katesedykh.github.io/ada-project-website/
 ## Table of contents:
-- [Busting the left brain vs. right brain myth?](#busting-the-left-brain-vs-right-brain-myth)
+- [Defying the Brain's Divisions: How Artistic and Scientific Interests Overlap on YouTube](#defying-the-brain-division)
   - [Table of contents:](#table-of-contents)
   - [1. Abstract](#1-abstract)
   - [2. Research Questions](#2-research-questions)
@@ -12,7 +12,7 @@ Web story: https://katesedykh.github.io/ada-project-website/
       - [Milestone 2](#milestone-2)
       - [Next tasks](#next-tasks)
   - [4 Organization](#4-organization)
-    - [4.1 Proposed timeline](#41-proposed-timeline)
+    - [4.1 Timeline](#41-timeline)
     - [4.2 Team organization](#42-team-organization)
   - [Questions for TAs (optional)](#questions-for-tas-optional)
 
