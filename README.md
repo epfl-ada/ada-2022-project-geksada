@@ -69,7 +69,7 @@ EDA: Exploratory Data Analysis
 5. Multiple statistical tests: T-test, Wilcoxon test, Welch's t-test and Mann-Whitney U test.
 
 ## 4 Organization
-### 4.1 Proposed timeline
+### 4.1 Timeline
 * 21 November – 27 November: Categorize users and compute Wilcoxon tests matrix
 * 28 November – 4 December: Implement milestone 2 feedback, analyze combinations of users and domains 
 * 5 December – 11 December: Draw conclusions and prepare visualizations
